@@ -1,6 +1,7 @@
 # Challenge3_python-challenge
 
-##PyBank Code Explanation:
+PyBank Code Explanation:
+
 Input data is a csv file of two 'columns' of Date and Profit/Losses.  Total of 87 rows including the header.  
 The following codes are constructed to do the following.
 
@@ -9,7 +10,7 @@ First few lines are to make sure necessary modules are imported to be able to re
 2. Read the csv file as an object.
 3. Open the object file and do the following computation:
 	- change, total_change and Total_profit
-	- add month counter
+	- month counter + 1
 	- Then loop thru the change value and assigned it as max_change or min_change to find the largest and smallest change
 	- Compute average_change
 4.  Assigned the output result in a folder as txt file.  Create the folder if it does not exist.
@@ -18,7 +19,9 @@ First few lines are to make sure necessary modules are imported to be able to re
 
 
 
-##PyRoll Code Explanation:
+
+PyRoll Code Explanation:
+
 Input data is a csv file of three 'columns' of Ballot ID, County and Candidate.  Total of 369,713 row including header and one empty line at the end.
 The following codes are constructed to do the following.
 
